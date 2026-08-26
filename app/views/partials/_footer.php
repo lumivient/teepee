@@ -6,18 +6,18 @@
  * View partial used throughout application
  *
  * @package Teepee
- * @author Rich Jenks <rich@richjenks.com>
+ * @author Lumivient <lumivient@proton.me>
  * @since v1.0.0
  */
 
-namespace RichJenks\Teepee;
+namespace Lumivient\Teepee;
 
 ?>
 
 		</div>
 
 			<footer>
-				<a href="https://github.com/richjenks/teepee/">Teepee v<?=AppHelper::get_version();?></a> <?=__('by')?> <a href="http://richjenks.com">Rich Jenks</a>
+				<a href="https://github.com/lumivient/teepee/">Teepee v<?=AppHelper::get_version();?></a>
 				<?php if($config['password'] !== '' && !isset($data['hide_logout'])):?>
 					 | <a href="?logout"><?=__('logout')?></a>
 				<?php endif;?>

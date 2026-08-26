@@ -2,13 +2,13 @@
 
 **A new home for Apache**
 
-![](https://richjenks.github.io/teepee/teepee.png)
+![](https://lumivient.github.io/teepee/teepee.png)
 
 ## About
 
 Teepee is a simple, minimal and responsive replacement for Apache's autoindex.
 
-**Get Teepee at [https://github.com/richjenks/teepee/](https://github.com/richjenks/teepee/)**
+**Get Teepee at [https://github.com/lumivient/teepee/](https://github.com/lumivient/teepee/)**
 
 Typical desktop screens get a large, spacious table and smaller screens (like tablets and large phones) get a fullscreen, no-frills version that relies on typography alone.
 

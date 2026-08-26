@@ -6,11 +6,11 @@
  * Authentication class which handles login & password view
  *
  * @package Teepee
- * @author Rich Jenks <rich@richjenks.com>
+ * @author Lumivient <lumivient@proton.me>
  * @since v1.3.0
  */
 
-namespace RichJenks\Teepee;
+namespace Lumivient\Teepee;
 
 class AuthController extends Controller {
 

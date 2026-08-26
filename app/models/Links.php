@@ -7,11 +7,11 @@
  * Gets link data from config global and generates data for each link
  *
  * @package Teepee
- * @author Rich Jenks <rich@richjenks.com>
+ * @author Lumivient <lumivient@proton.me>
  * @since v1.1.0
  */
 
-namespace RichJenks\Teepee;
+namespace Lumivient\Teepee;
 
 class Links {
 

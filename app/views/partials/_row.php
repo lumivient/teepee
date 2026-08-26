@@ -6,11 +6,11 @@
  * Partial for displaying a row in directory listings
  *
  * @package Teepee
- * @author Rich Jenks <rich@richjenks.com>
+ * @author Lumivient <lumivient@proton.me>
  * @since v1.0.0
  */
 
-namespace RichJenks\Teepee;
+namespace Lumivient\Teepee;
 
 global $config;
 

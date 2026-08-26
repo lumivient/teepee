@@ -6,11 +6,11 @@
  * Manages update checks
  *
  * @package Teepee
- * @author Rich Jenks <rich@richjenks.com>
+ * @author Lumivient <lumivient@proton.me>
  * @since v1.4.0
  */
 
-namespace RichJenks\Teepee;
+namespace Lumivient\Teepee;
 
 class UpdateController {
 
@@ -33,13 +33,13 @@ class UpdateController {
 
 			// Get latest version, supressing errors
 			// Don't hound users to update, just let it fail silently until they have a connection
-			$_SESSION['latest_version'] = @file_get_contents('https://rawgit.com/richjenks/teepee/master/version');
+			$_SESSION['latest_version'] = @file_get_contents('https://rawgit.com/lumivient/teepee/master/version');
 
 		}
 
 		// If latest version is higher than current version, show notice
 		if (version_compare($_SESSION['current_version'], $_SESSION['latest_version'], 'lt')) {
-			$GLOBALS['notices'][] = 'Version '.$_SESSION['latest_version'].' available. <a href="https://github.com/richjenks/teepee/archive/master.zip">Download now</a>';
+			$GLOBALS['notices'][] = 'Version '.$_SESSION['latest_version'].' available. <a href="https://github.com/lumivient/teepee/archive/master.zip">Download now</a>';
 		}
 
 	}

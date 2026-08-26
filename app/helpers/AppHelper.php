@@ -6,11 +6,11 @@
  * Functions related to Teepee core
  *
  * @package Teepee
- * @author Rich Jenks <rich@richjenks.com>
+ * @author Lumivient <lumivient@proton.me>
  * @since v1.4.0
  */
 
-namespace RichJenks\Teepee;
+namespace Lumivient\Teepee;
 
 class AppHelper {
 

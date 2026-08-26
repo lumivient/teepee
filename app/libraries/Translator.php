@@ -6,11 +6,11 @@
  * Helper for handling translations file and translating text
  *
  * @package Teepee
- * @author Rich Jenks <rich@richjenks.com>
+ * @author Lumivient <lumivient@proton.me>
  * @since v1.2.0
  */
 
-namespace RichJenks\Teepee;
+namespace Lumivient\Teepee;
 
 class Translator {
 

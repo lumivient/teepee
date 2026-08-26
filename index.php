@@ -1,6 +1,6 @@
 <?php
 
-namespace RichJenks\Teepee;
+namespace Lumivient\Teepee;
 
 session_start();
 
